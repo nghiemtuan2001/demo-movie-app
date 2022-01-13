@@ -1,0 +1,26 @@
+.movie img {
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.movie {
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+
+.movie:hover {
+    transform: scale(1.05);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+
+.movie span {
+    color: rgba(255, 255, 255, 0.856);
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.movie a {
+    text-decoration: none;
+}

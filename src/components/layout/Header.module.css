@@ -1,0 +1,36 @@
+.header {
+    position: fixed;
+    padding: 0.8rem 2rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* background-color: #06121e; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    transition: 0.5s ease;
+}
+
+.colored {
+    background-color: #161853;
+    transition: 0.5s ease;
+}
+
+.logo {
+    cursor: pointer;
+    height: 2rem;
+    width: auto;
+    object-fit: cover;
+}
+
+.search {
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.671);
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        padding: 0.5rem 1rem;
+    }
+}

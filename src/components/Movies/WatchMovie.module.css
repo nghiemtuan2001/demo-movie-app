@@ -1,0 +1,36 @@
+.container {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* border: 1px solid red; */
+}
+
+.player-container {
+    width: 100%;
+    height: 63vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.player {
+    display: block;
+    width: 80%;
+    height: 100%;
+}
+
+.detail {
+    padding: 1.5rem;
+}
+
+.detail>div {
+    width: 100%;
+}
+
+@media screen and (max-width: 415px) {
+    .player-container {
+        height: 40vh;
+    }
+}

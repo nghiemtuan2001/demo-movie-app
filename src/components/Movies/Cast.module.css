@@ -1,0 +1,41 @@
+.cast {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.cast img {
+    width: 10rem;
+    height: 13rem;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.cast h3,
+.cast h4 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.cast h3 {
+    color: rgba(255, 255, 255, 0.815);
+}
+
+.cast h4 {
+    color: #2e3f4e;
+}
+
+@media screen and (max-width: 320px) {
+    .cast {
+        font-size: 90%;
+    }
+    .cast img {
+        width: 8rem;
+        height: 11rem;
+    }
+    .cast h2 {
+        display: block;
+        padding-left: 1rem;
+    }
+}

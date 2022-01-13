@@ -1,0 +1,30 @@
+.spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 90vw;
+    height: 93vh;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+
+.spinner:after {
+    content: " ";
+    display: block;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 14px solid #a20910;
+    border-color: #a20910 transparent #a20910 transparent;
+    animation: spinner 1s linear infinite;
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,14 @@
+.genres {
+    margin-top: 1.45rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.genres span {
+    padding: 0.5rem 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.815);
+    color: rgba(255, 255, 255, 0.815);
+    border-radius: 20px;
+    cursor: default;
+}

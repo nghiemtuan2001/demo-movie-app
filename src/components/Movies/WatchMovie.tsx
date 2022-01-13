@@ -55,7 +55,6 @@ const WatchMovie: React.FC = () => {
       setcurrentSsAndEps((state) => {
         return { ...state, movieOrTvInfo: res };
       });
-
       if (media === "tv") {
         const seasonsNumber = res.number_of_seasons;
         const promises = [];
